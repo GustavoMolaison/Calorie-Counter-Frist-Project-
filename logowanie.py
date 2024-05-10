@@ -1,4 +1,3 @@
-# from calorie import *
 from lk import *
 global dont_log
 dont_log = False
