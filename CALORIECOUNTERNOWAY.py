@@ -6,6 +6,7 @@ from time import sleep, time
 global backer
 global nie_ma_to_kurwa_sensu
 def calorie_shedule(uzer):
+    # mostly unnecessary globals
     global backer
     global uchoice
     global Calorie_savedhelp
@@ -47,21 +48,31 @@ def calorie_shedule(uzer):
     global breakfun
     global calendar
     global calendar2
+    
+    # Setting up datetime and other data
+    
     calendar2 = datetime.today()
     calendar = calendar2.strftime('%Y-%m-%d')
     breakfun = 0
     calorie_save = {'breakfast_calorie': 0, 'lunch_calorie': 0, 'dinner_calorie': 0, 'dessert_calorie': 0,'snacks_calorie':0,
                     'protein_menu': 0, 'fats_menu': 0, 'carbohydrates_menu': 0}
+    # Loading saved data of user
     with open('what_you_ate', 'rb') as file:
         calorie_save = pickle.load(file)
     with open('Users_personal_datas_file', 'rb') as file:
         User_personal_data = pickle.load(file)
+        
     nutreins = {'gfats':None, 'gprotein':None, 'gcarbohydrates':None, 'gcalorie':None}
     meals = {}
     with open('goals', 'rb') as file:
      goal_user = pickle.load(file)
     with open('diet', 'rb') as file:
       udict = pickle.load(file)
+
+
+    # defying functions 
+
+    
     def trry():
      try:
         pol = True
