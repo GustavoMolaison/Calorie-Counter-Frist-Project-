@@ -2,7 +2,13 @@ import pickle
 from lk import *
 from datetime import datetime
 from time import sleep, time
-
+# Im commenting this one year after making this and yes its tragic
+# I wont comment it as a whole cause its pointless its a mess i used more global var in this code than i will use for  the rest of my life probably 
+# I was new in python so you have to understand. Theoriticly is shoudnt make it public but its sentimental for me so just dont judge me on this one code please.
+# Still code works and its pretty comfy to use
+# We can choose between adding foods we ate or checking our goal for current day or even history of out diet.
+# One thing that is most cool is how program saves properties of meals if they are being mentioned for frist time if we add properties of apple one time next time...
+# code will remeber it and skip the procces of filling properies i could try including so outisde food data but well it was frsit project after all.
 global backer
 global nie_ma_to_kurwa_sensu
 def calorie_shedule(uzer):
