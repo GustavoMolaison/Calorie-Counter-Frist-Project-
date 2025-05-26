@@ -1,5 +1,5 @@
 import pickle
-'DO TWORZENIA PILIKÓW DLA KODU PO RESECIE DANYCH'
+'Should be used only for the very frist time of using code. Using it again will reset all the data. Yes very safe design'
 'WŁĄCZ TO PRZED PIERWSZYM URUCHOMIENIEM A POTEM  NIC TU NIE TYKAC CHYBA ZE CHCESZ COS ROZPIERDOLIC'
 ######################################################################################################################################################################################
 udict = {}
