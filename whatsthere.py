@@ -1,5 +1,5 @@
 import pickle
-# DO SPRAWDZANIA CO JEST W PICKLE
+# Checking whats insidde pickles for debugging
 with open('m', 'rb') as file:
     m = pickle.load(file)
 
