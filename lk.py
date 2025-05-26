@@ -1,7 +1,8 @@
 import pickle
 global nus
 global nus
-
+# This code is responsible for setting profile for new users
+# From their calorie to protein goal based on info they provide
 
 
 class Ugoal:
