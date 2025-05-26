@@ -9,6 +9,7 @@ from time import sleep, time
 # We can choose between adding foods we ate or checking our goal for current day or even history of out diet.
 # One thing that is most cool is how program saves properties of meals if they are being mentioned for frist time if we add properties of apple one time next time...
 # code will remeber it and skip the procces of filling properies i could try including so outisde food data but well it was frsit project after all.
+# Data manegment is pretty tuff though kinda suprised i did it back then with this whole pickle dicts stuff.
 global backer
 global nie_ma_to_kurwa_sensu
 def calorie_shedule(uzer):
